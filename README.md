@@ -61,7 +61,7 @@ The web is powerful, but navigating it is often **slow and repetitive** — typi
 ---
 
 ## 🧩 Tech Stack
-Node.js • Browser Agent API • Whisper API • Web Speech API
+Node.js • Browser Agent • Whisper API • Web Speech API • Vue
 
 
 ---

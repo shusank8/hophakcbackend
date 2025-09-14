@@ -25,8 +25,8 @@ The web is powerful, but navigating it is often **slow and repetitive** — typi
 ---
 
 ## 🛠️ How We Built It
-- **Frontend:** React interface with voice & text controls  
-- **Backend:** Node.js + Browser Agent API for navigation & automation  
+- **Frontend:** Javascript interface with voice & text controls  
+- **Backend:** Node.js + Browser Agent for navigation & automation  
 - **Speech Tech:** Whisper API (STT), Web Speech API (TTS)  
 - **Integration:** Conditional response handling to match input mode  
 
@@ -63,10 +63,6 @@ The web is powerful, but navigating it is often **slow and repetitive** — typi
 ## 🧩 Tech Stack
 Node.js • Browser Agent API • Whisper API • Web Speech API
 
----
-
-## 🎥 Demo
-[Link to video demo]()
 
 ---
 

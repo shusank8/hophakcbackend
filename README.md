@@ -1,4 +1,4 @@
-# ⚡ WebPilot AI Agent
+# ⚡ AI Browser Agent
 
 **HopHacks 2025 – Bloomberg Social Good Track**  
 *An AI browsing assistant that automates web tasks — from searching to form-filling — to boost efficiency for everyone.*

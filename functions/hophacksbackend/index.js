@@ -23,9 +23,7 @@ Deno.serve(async (req) => {
   const { socket, response } = Deno.upgradeWebSocket(req);
 
   //   waiting for a connection
-  socket.addEventListener("open", () => {
-    console.log("a client connected!");
-  });
+  socket.addEventListener("open", () => {});
 
   //   listening to a message
   socket.addEventListener("message", async (event) => {
@@ -33,6 +31,7 @@ Deno.serve(async (req) => {
     if (typeof query != "string") {
       query = await speechtotext(query);
       socket.send(JSON.stringify({ speechtext: query }));
+      return;
     }
 
     // from here
